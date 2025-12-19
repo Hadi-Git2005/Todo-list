@@ -1,0 +1,19 @@
+@import "tailwindcss";
+input {
+    background-color: black;
+    margin: 2px;
+    padding: 4px;
+    border-radius: 3px;
+    color: white;
+}
+button{
+    box-shadow: 1.5px 1.5px 1.5px 1px gray;
+    border-radius: 4px;
+    padding: 4px;
+    transition: all;
+    min-width: 100px;
+    transition-duration: 0.5s;
+}
+button:active{
+    box-shadow: 0.5px 0.5px 0.5px 1px gray
+}
